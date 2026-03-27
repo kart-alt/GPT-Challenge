@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.SilentGuard" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_dark</item>
+        
+        <item name="android:statusBarColor">@color/background_primary</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/background_primary</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnPrimary">@color/text_inverse</item>
+        <item name="colorOnSecondary">@color/text_inverse</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+    </style>
+    
+    <!-- Alert Theme (Full Screen Red) -->
+    <style name="Theme.SilentGuard.Alert" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/alert_background</item>
+        <item name="android:statusBarColor">@color/alert_background_dark</item>
+        <item name="android:navigationBarColor">@color/alert_background_dark</item>
+        <item name="android:windowBackground">@color/alert_background</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="cornerRadius">@dimen/radius_md</item>
+        <item name="android:textSize">@dimen/text_body_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">@dimen/spacing_md</item>
+        <item name="android:paddingBottom">@dimen/spacing_md</item>
+        <item name="android:elevation">@dimen/elevation_sm</item>
+    </style>
+    
+    <style name="Button.Success" parent="Button.Primary">
+        <item name="backgroundTint">@color/success</item>
+    </style>
+    
+    <style name="Button.Danger" parent="Button.Primary">
+        <item name="backgroundTint">@color/danger</item>
+    </style>
+    
+    <style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">@dimen/radius_md</item>
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+    
+    <!-- Card Style -->
+    <style name="Card.Elevated" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/card_corner</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">@dimen/spacing_lg</item>
+    </style>
+    
+    <!-- Text Styles -->
+    <style name="Text.Display" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">@dimen/text_display</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    
+    <style name="Text.H1" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/text_h1</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+    
+    <style name="Text.H2" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textSize">@dimen/text_h2</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.H3" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">@dimen/text_h3</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    
+    <style name="Text.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/text_body</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    
+    <style name="Text.BodySecondary" parent="Text.Body">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    
+    <style name="Text.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
