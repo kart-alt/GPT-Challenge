@@ -128,7 +128,7 @@ In real emergencies:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/silent-guard.git
+   git clone https://github.com/kart-alt/SilentGuard.git
    cd silent-guard
    ```
 
@@ -260,9 +260,9 @@ MIT License - See [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/silent-guard/issues)
+- **Issues**: [GitHub Issues](https://github.com/kart-alt/SilentGuard/issues)
 - **Email**: support@silentguard.app
-- **Documentation**: [Wiki](https://github.com/yourusername/silent-guard/wiki)
+- **Documentation**: [Wiki](https://github.com/kart-alt/SilentGuard/wiki)
 
 ---
 
